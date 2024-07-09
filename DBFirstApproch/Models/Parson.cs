@@ -25,5 +25,5 @@ public partial class Parson
 
     public string? PhoneNumber { get; set; }
 
-    public virtual ICollection<Candidate> Candidates { get; set; } = new List<Candidate>();
+   // public virtual ICollection<Candidate> Candidates { get; set; } = new List<Candidate>();
 }

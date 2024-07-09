@@ -35,7 +35,7 @@ public partial class HrmContext : DbContext
 
             entity.Property(e => e.CandidateId).ValueGeneratedNever();
 
-            entity.HasOne(d => d.Parson).WithMany(p => p.Candidates).HasForeignKey(d => d.ParsonId);
+          //  entity.HasOne(d => d.Parson).WithMany(p => p.Candidates).HasForeignKey(d => d.ParsonId);
         });
 
         modelBuilder.Entity<Department>(entity =>
